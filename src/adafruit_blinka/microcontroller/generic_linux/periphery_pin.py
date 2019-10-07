@@ -21,7 +21,7 @@ class Pin:
     def __init__(self, pin_id):
         self.id = pin_id
         if type(pin_id) is tuple:
-            raise NotImplementedError("Tuple as pin id is not supported")
+            self._num = int(pin_id[0]) * 32 + int(pin_id[1])
         else:
             self._num = int(pin_id)
         self._line = None
