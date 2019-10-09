@@ -100,6 +100,9 @@ elif board_id == ap_board.DRAGONBOARD_410C:
 elif board_id == ap_board.FTDI_FT232H:
     from adafruit_blinka.board.ftdi_ft232h import *
 
+elif board_id == ap_board.KOOV_AI:
+    from adafruit_blinka.board.koov_ai import *
+
 elif "sphinx" in sys.modules:
     pass
 

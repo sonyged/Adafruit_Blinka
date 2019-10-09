@@ -6,3 +6,5 @@ if detector.board.any_coral_board:
     from adafruit_blinka.microcontroller.generic_linux.sysfs_pwmout import PWMOut
 if detector.board.any_giant_board:
     from adafruit_blinka.microcontroller.generic_linux.sysfs_pwmout import PWMOut
+if detector.board.any_koov_ai_board:
+    from adafruit_blinka.microcontroller.generic_linux.sysfs_pwmout import PWMOut
