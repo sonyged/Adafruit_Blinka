@@ -100,6 +100,18 @@ elif board_id == ap_board.DRAGONBOARD_410C:
 elif board_id == ap_board.FTDI_FT232H:
     from adafruit_blinka.board.ftdi_ft232h import *
 
+elif board_id == ap_board.KOOV_AI_EVT1:
+    from adafruit_blinka.board.koov_ai_evt1 import *
+
+elif board_id == ap_board.KOOV_AI_EVT2:
+    from adafruit_blinka.board.koov_ai_evt2 import *
+
+elif board_id == ap_board.KOOV_AI_DVT1:
+    from adafruit_blinka.board.koov_ai_dvt1 import *
+
+elif board_id == ap_board.KOOV_AI_PVT1:
+    from adafruit_blinka.board.koov_ai_pvt1 import *
+
 elif board_id == ap_board.KOOV_AI:
     from adafruit_blinka.board.koov_ai import *
 

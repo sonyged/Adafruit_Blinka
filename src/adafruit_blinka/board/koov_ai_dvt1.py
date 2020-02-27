@@ -1,4 +1,4 @@
-"""Pin definitions for the KOOV.ai board."""
+"""Pin definitions for the KOOV.ai evt-1 board."""
 
 from adafruit_blinka.microcontroller.nxp_imx8m import pin
 
@@ -28,4 +28,3 @@ MOSI = pin.ECSPI1_MOSI
 SCLK = pin.ECSPI1_SCLK
 SCK = pin.ECSPI1_SCLK
 SS0 = pin.ECSPI1_SS0
-
