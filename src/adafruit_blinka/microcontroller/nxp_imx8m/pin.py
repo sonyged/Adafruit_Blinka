@@ -1,12 +1,17 @@
 #from adafruit_blinka.microcontroller.generic_linux.libgpiod_pin import Pin
 from adafruit_blinka.microcontroller.generic_linux.periphery_pin import Pin
 
+I2C1_SCL = Pin(142) # GPIO5_IO14
+I2C1_SDA = Pin(143) # GPIO5_IO15
+
 I2C2_SCL = Pin(144) # GPIO5_IO16
 I2C2_SDA = Pin(145) # GPIO5_IO17
 
 I2C3_SCL = Pin(146) # GPIO5_IO18
 I2C3_SDA = Pin(147) # GPIO5_IO19
 
+I2C4_SCL = Pin(148) # GPIO5_IO20
+I2C4_SDA = Pin(149) # GPIO5_IO21
 
 PWM1 = Pin((0, 1))      # GPIO1_IO01
 PWM2 = Pin((0, 13))     # GPIO1_IO13
