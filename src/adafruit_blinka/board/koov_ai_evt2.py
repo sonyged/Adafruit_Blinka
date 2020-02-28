@@ -10,6 +10,8 @@ SDA2 = pin.I2C2_SDA
 SCL2 = pin.I2C2_SCL
 SDA3 = pin.I2C3_SDA
 SCL3 = pin.I2C3_SCL
+SDA4 = pin.I2C4_SDA
+SCL4 = pin.I2C4_SCL
 
 PWM1 = pin.PWM1
 PWM2 = pin.PWM2
